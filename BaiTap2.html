@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1</title>
+    <style>
+ /* Bai 2 */
+ body { font-family: Arial; }
+   #menu {
+       height: 30px;
+       padding: 0;
+       margin: auto;
+       background-color: #000000;
+       border: 1px solid #CDCDCD;
+   }
+   #menu ul, #menu li { padding:0;
+     margin:0; 
+    }
+    #menu li {
+       position: relative;
+       float: left;
+       list-style: none;
+       margin: 0;
+       padding: 0;
+   }
+   #menu li a { 
+      width: 150px;
+      border-right: 1px solid #ccc;
+      margin-left: 10px;
+      height: 30px;
+     
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      line-height: 30px;
+      background-color: black;
+      color: white;
+   }
+   #menu ul ul li a {
+       width: 200px;
+       text-align: left;
+       padding-left: 10px;
+   }
+   #menu li a:hover { 
+    background-color: red; 
+    }
+    #menu ul ul { position: absolute; top: 30px; }
+    #menu ul ul { position: absolute; top: 30px; left: 15px; visibility: hidden; }
+    #menu ul li:hover ul {
+      visibility: visible;
+   } 
+
+ 
+    </style>
+</head>
+<body>
+    
+    <div id="menu">
+        <ul>
+            <li><a href="#">Manchester United </a>
+                <ul>
+                    <li><a href="#">David de Gea</a></li>
+                    <li><a href="#">Maguire </a></li>
+                    <li><a href="#">Ronaldo</a></li>    
+                    <li><a href="#">Rashford</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Manchester City F.C.</a>
+                <ul>
+                    <li><a href="#">Stefan Ortega</a></li>
+                    <li><a href="#">İlkay Gündoğan</a></li>
+                    <li><a href="#">Erling Haaland</a></li>
+                    <li><a href="#">Julián Álvarez</a></li>
+                    <li><a href="#">Riyad Mahrez</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Arsenal F.C.</a>
+                <ul>
+                    <li><a href="#">Ramsdale</a></li>
+                    <li><a href="#">Ben White</a></li>
+                    <li><a href="#">Zinchenko</a></li>
+                    <li><a href="#">Gabriel Jesus</a></li>
+                    <li><a href="#">Bukayo Saka</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Chelsea F.C.</a>
+                <ul>
+                    <li><a href="#">Mykhailo Mudryk</a></li>
+                    <li><a href="#">Raheem Sterling</a></li>
+                    <li><a href="#">Romeo Lavia</a></li>
+                    <li><a href="#">Cole Palmer</a></li>
+                    <li><a href="#">Levi Colwill</a></li>
+                </ul>
+            </li>
+        </ul>
+     </div> 
+
+   
+</body>
+</html>
